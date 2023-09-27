@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿// My second change
+=======
+﻿// My first change
+>>>>>>> e24d4eb9c8bc5f1e6151bd75300dab57dfc9ede1
 using System.Net.Mime;
 using Ardalis.ListStartupServices;
 using BlazorAdmin;
