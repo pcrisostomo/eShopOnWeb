@@ -13,12 +13,12 @@ resources:
 variables:
   location: 'westeurope'
   templateFile: '.azure/bicep/aci.bicep'
-  subscriptionid: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionid: 'd9c6a920-a3f6-4c08-8003-50ead7dc8786'
   azureserviceconnection: 'azure subs'
-  webappname: 'az400eshop-NAME'
-  acr-login-server: 'YOUR-ACR.azurecr.io'
-  acr-username: 'ACR-USERNAME'
-  resource-group: 'AZ400-EWebShop-NAME' 
+  webappname: 'az400eshop-pau'
+  acr-login-server: 'crc2a54cf7g6r72.azurecr.io'
+  acr-username: 'crc2a54cf7g6r72'
+  resource-group: 'AZ400-EWebShop-PauCris' 
 
 
 stages:
