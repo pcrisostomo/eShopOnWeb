@@ -14,11 +14,11 @@ resources:
 
 variables:
   tag: '$(Build.BuildId)'
-  resource-group: 'd9c6a920-a3f6-4c08-8003-50ead7dc8786'
+  resource-group: 'AZ400-EWebShop-Pau'
   location: 'westeurope'
   templateFile: '.azure/bicep/acr.bicep'
   azureserviceconnection: 'azure subs'
-  subscriptionId: 'YOUR-SUBSCRIPTION-ID'
+  subscriptionId: '6a920-a3f6-4c08-8003-50ead7dc8786'
 
 stages:
 - stage: Build
